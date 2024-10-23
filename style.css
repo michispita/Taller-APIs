@@ -1,0 +1,31 @@
+body {
+    background-color: #f5cac3;
+}
+
+.title {
+    text-align: center;
+    margin: auto;
+}
+
+.display-4 {
+    color: #84a59d;
+}
+
+.cat {
+    text-align: center;
+    width: 30%;
+    margin: 2rem auto auto auto;
+    background-color: #84a59d;
+    padding: 3rem;
+    border-radius: 3rem;
+}
+
+.cat h3 {
+    margin: auto auto 2rem auto;
+}
+
+.cat img {
+    border-radius: 3rem;
+    width: 100%;
+    margin: auto;
+}
