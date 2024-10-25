@@ -1,6 +1,8 @@
-body {
+.todo, html {
     background-color: #f5cac3;
 }
+
+
 
 .title {
     text-align: center;
@@ -9,7 +11,79 @@ body {
 
 .display-4 {
     color: #84a59d;
+    padding: 1rem;
 }
+
+.title h5 {
+    margin: auto auto 2rem auto;
+    font-size: 2rem;
+    background: radial-gradient(
+        circle at 100%,
+        #f6bd60,
+        #f28482 50%,
+        #f7ede2 75%,
+        #f28482 75%
+      );
+      font-weight: 600;
+      background-size: 200% auto;
+      color: #000;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animatedTextGradient 2s linear infinite;
+    }
+    
+    @keyframes animatedTextGradient {
+      to {
+        background-position: 200% center;
+      }
+}
+
+.title h6 {
+    color: white;
+    margin: auto auto 1rem auto;
+    font-size: 1.3rem;
+}
+
+.button-55 {
+      align-self: center;
+      background-color: #fff;
+      background-image: none;
+      background-position: 0 90%;
+      background-repeat: repeat no-repeat;
+      background-size: 4px 3px;
+      border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+      border-style: solid;
+      border-width: 2px;
+      box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+      box-sizing: border-box;
+      color: #41403e;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Neucha, sans-serif;
+      font-size: 1rem;
+      line-height: 23px;
+      outline: none;
+      padding: .75rem;
+      text-decoration: none;
+      transition: all 235ms ease-in-out;
+      border-bottom-left-radius: 15px 255px;
+      border-bottom-right-radius: 225px 15px;
+      border-top-left-radius: 255px 15px;
+      border-top-right-radius: 15px 225px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .button-55:hover {
+      box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+      transform: translate3d(0, 2px, 0);
+    }
+    
+    .button-55:focus {
+      box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+    }
+
 
 .cat {
     text-align: center;
